@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 28pt;
+	border-bottom: 1px solid #66ccff;
+	padding-bottom:10px;
+}
+
+body{
+	background-color:  #ffcc99;
+	margin-left: 10%;
+	margin-right:  10%;
+	margin-top: 2%;
+}
+
+h2{
+	color: #cc6600;
+	font-family:"Arial";
+	font-size: 14pt;
+}
+
+p{
+	font-size: 13pt;
+	font-family: "Arial";
+}
+
+em{
+	font-family:"Georgia";
+	color:#ff6600;
+}
