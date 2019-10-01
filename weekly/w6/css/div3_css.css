@@ -93,7 +93,8 @@ footer{
 }
 
 #wrapper{
-	
+	background-color:rgba(240,240,240,.45);
+	width:960px;
 }
 
 nav{
@@ -112,4 +113,8 @@ h2{
 
 p{
 	font-family:Arial;
+}
+
+body{
+	background-image:url("../img/pipes.png")
 }
