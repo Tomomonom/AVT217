@@ -95,6 +95,7 @@ footer{
 #wrapper{
 	background-color:rgba(240,240,240,.45);
 	width:960px;
+	margin:0 auto;
 }
 
 nav{
