@@ -1,0 +1,318 @@
+@charset "UTF-8"
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#mainwrapper{
+	margin:auto;
+	width:960px;
+	font-family:Arial;
+	overflow:hidden;
+}
+
+.navbar{
+	margin:0px;
+	height:60px;
+	width:960px;
+	background-image:url("../img/Final/navbar.png");
+	background-position:top left;
+	position:fixed;
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+}
+
+body{
+	margin:0px;
+	background-image:url("../img/Final/bokehblur.png");
+	background-repeat:repeat;
+}
+
+#frontimage{
+	margin:0px;
+	height:495px;
+	background-image:url("../img/final/redburgerwitbacon.png");
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+h1{
+	margin:5px;
+	padding-left:10px;
+	font-size:25px;
+	float:left;
+}
+
+footer{
+	background-color:#4b0101;
+	font-size:10px;
+	width:960px;
+	height:25px;
+	bottom:0px;
+	position:fixed;
+	text-align:center;
+}
+
+small{
+	margin:0px;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+h2{
+	padding-top:100px;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.topnav ul{
+	display:inline;
+}
+
+.topnav ul li{
+	display:inline;
+	float:right;
+	margin-right:60px;
+	text-decoration:underline;
+}
+
+#sidenav{
+	position:fixed;
+	display:inline-block;
+	height:100%;
+	width:150px;
+	background-color:#3A0505;
+}
+
+#sidebar{
+	color:white;
+	float:left;
+	text-align:left;
+	margin-top:200px;
+}
+#sidebar ul{
+	padding-left:5px;
+}
+
+#sidebar ul li{
+	margin-top:60px;
+}
+
+#menucontent{
+	float:left;
+	width:810px;
+	display:inline-block;
+	background-color:white;
+	margin-left:150px;
+	margin-top:30px;
+}
+
+#burgers{
+	
+}
+
+#dogs{
+	
+}
+
+#sandwiches{
+	
+}
+
+#fries{
+	
+}
+
+.menutype{
+	
+}
+
+.menuitem{
+	display:inline-block;
+	width:810px;
+}
+
+.menutype h1{
+	/*add a border bottom to this*/
+	margin-top:30px;
+	padding-bottom:10px;
+	padding-right:700px;
+	border-bottom:2px solid #D77C2B;
+	margin-bottom:20px;
+	color:#570808;
+	font-size:45px;
+}
+
+.menutype h2{
+	padding-top:0px;
+}
+
+.menuitem img{
+	width:150px;
+	height:150px;
+	display:inline-block;
+	margin-left:10px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.itemdescription{
+	display:inline-block;
+	float:left;
+	margin-left:10px;
+	width:500px;
+}
+
+.itemdescription h2{
+	color:#D18400;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.itemdescription p{
+	color:#3A0505;
+	margin-top:10px;
+}
+
+.menutype img{
+	margin-right:0px;
+}
+
+.menutype small{
+	color:#C47171;
+	display:block;
+	margin-bottom:15px;
+	margin-left:10px;
+}
+
+#hook{
+	margin:0 auto;
+	font-size:48px;
+	color:#FFFFFF;
+	height:600px;
+}
+
+#offerbar{
+	width:960px;
+	height:350px;
+	margin:0px;
+	padding:0px;
+	padding-top:50px;
+	background-color:#FFFFFF;
+}
+
+h3{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	font-weight:100;
+	margin-bottom:20px;
+	font-size:28px;
+}
+
+.offeritem{
+	width:300px;
+	height:193px;
+	padding:8px;
+	margin:0px;
+	display:inline-block;
+	text-align:center;
+}
+
+h4{
+	margin:0px;
+	padding:0px;
+	top:-15%;
+	text-align:center;
+	position:relative;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:100;
+}
+
+.topnav{
+	display:inline;
+	float:right;
+	margin:0px;
+	padding:0px;
+	margin-top:8px;
+	margin-right:270px;
+}
+
+#findusbar{
+	background-color:#FFFFFF;
+	width:960px;
+	height:350px;
+	padding-top:50px;
+	border-top:2px dashed #E2E2E2;
+	text-align:center;
+}
+
+h5{
+	font-size:18px;
+	font-weight:100px;
+	color:#B2B2B2;
+	/*padding-top:10px;*/
+	line-height:30px;
+}
+
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+a:hover{
+	color:#DEDEDE;
+}
+
+a:active{
+	color:#888888;
+}
