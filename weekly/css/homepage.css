@@ -6,6 +6,12 @@ body{
   color:#FFFFFF;
 }
 
+#wrapper{
+  background-color:#708090;
+  font-family:Arial;
+  color:#FFFFFF;
+}
+
 h1{
  border:3px dashed #FFFFFF; 
 }
