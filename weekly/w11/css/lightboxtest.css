@@ -1,0 +1,23 @@
+@charset "UTF-8"
+
+#gallery{
+	width:1280px;
+	margin:0px auto;
+	display:block;
+}
+
+#gallery img{
+	padding:10px;
+	border:1px solid #444444;
+}
+
+.imagerow{
+	margin:auto;
+	width:1280px;
+}
+
+body{
+	background-color:black;
+	background-image:url("../images/backgroundimg.jpg");
+	background-repeat:no-repeat;
+}
